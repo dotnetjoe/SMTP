@@ -1,15 +1,5 @@
 import sys, socket, re
 
-"""
-- how to test this program:
-- copy SMTP2.py and generate_tests.py to your working directory (a directory under your home direct$
-- first, generate input_0 and output_0 files by running: python3 generate_tests.py
-- then, run SMTP2.py: python3 SMTP2.py < input_0 > my_output_0
-- finally, compare program output (my_output_0) with expected output (output_0)
-  diff shouldn't produce any output:
-        diff output_0 my_output_0
-"""
-
 def next_input_line():
     current_line = input()
     return current_line
